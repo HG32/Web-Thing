@@ -141,11 +141,16 @@ html {
 }
 
 nav {
-	position:fixed;
-	z-index: +1;
-	background-color:coral;
+	position: fixed;
+	z-index: 1;
+	background-color:grey;
 	width: 100vw;
-	padding-left: 10px;
+	padding-left: 30px;
+	line-height: 0px;
+}
+
+nav li {
+	display: inline-block;
 }
 
 body {
